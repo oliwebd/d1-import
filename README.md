@@ -417,7 +417,7 @@ MIT License - feel free to use and modify
 - 📖 Documentation: Check this README
 - 🐛 Issues: Create GitHub issue
 - 💬 Discussions: GitHub Discussions
-- 📧 Contact: https://olimiah.vercel.app/contact]
+- 📧 Contact: https://olimiah.vercel.app/contact
 
 ## Changelog
 
