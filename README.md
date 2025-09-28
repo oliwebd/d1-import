@@ -49,7 +49,7 @@ d1-import config
 
 ### 2. Database Sources
 
-Edit database source files examples`~/.d1-import/.db_list.txt`:
+Edit database source files examples `~/.d1-import/.db_list.txt`:
 
 ```bash
 cat > ~/.d1-import/.db_list.txt <<EOF
@@ -98,7 +98,8 @@ d1-import show-sources
 ```
 #### Or Use See yours Database Sources config files 
 ```bash
-cat > ~/.d1-import/.db_list.txt <<EOF
+cat ~/.d1-import/.db_list.txt
+
 ```
 
 ### Import Data
