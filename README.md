@@ -19,9 +19,13 @@
 # Download and run the installer
 curl -fsSL https://raw.githubusercontent.com/oliwebd/d1-import/main/install.sh | bash
 
-# Or download install.sh and run locally
+```
+### Or
+```bash
+# download install.sh and run locally
 chmod +x install.sh
 ./install.sh
+
 ```
 
 ## Manual Installation
