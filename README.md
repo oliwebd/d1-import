@@ -49,9 +49,10 @@ d1-import config
 
 ### 2. Database Sources
 
-Edit `~/.d1-import/.db_list.txt`:
+Edit database source files examples`~/.d1-import/.db_list.txt`:
 
-```text
+```bash
+cat > ~/.d1-import/.db_list.txt <<EOF
 # MySQL
 MySQL_prod=mysql://user:pass@host.example.com:3306/database
 MySQL_dev=mysql://user:pass@localhost:3306/dev_db
@@ -66,11 +67,12 @@ MongoDB_main=mongodb://user:pass@host.example.com:27017/database
 # SQLite
 SQLite_local=/path/to/database.sqlite
 SQLite_backup=/path/to/backup.db
+EOF
 ```
 
 ## Usage
 
-### List Available D1 Databases
+### List Available D1 Databases in your Cloudflare Account 
 
 ```bash
 d1-import list
@@ -93,6 +95,10 @@ Output:
 
 ```bash
 d1-import show-sources
+```
+#### Or Use See yours Database Sources config files 
+```bash
+cat > ~/.d1-import/.db_list.txt <<EOF
 ```
 
 ### Import Data
