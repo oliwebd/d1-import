@@ -17,7 +17,7 @@
 
 ```bash
 # Download and run the installer
-curl -fsSL https://raw.githubusercontent.com/your-repo/d1-import-cli/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oliwebd/d1-import/main/install.sh | bash
 
 # Or download install.sh and run locally
 chmod +x install.sh
